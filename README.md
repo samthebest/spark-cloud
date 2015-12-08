@@ -48,8 +48,7 @@ ssh -i path-to-keypair.pem ubuntu@master-host-which-is-helpfully-printed-at-laun
 To run `spark-shell` you can't use `--master yarn-client`.
 The master URL will be of the form `spark://host:port` it can be found by opening up the spark UI (which is helpfully printed at launch time).
 
-
-To run spark-shell just:
+To run spark-shell in local mode just:
 ```
 spark-shell
 ```
