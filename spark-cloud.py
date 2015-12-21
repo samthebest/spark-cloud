@@ -170,7 +170,7 @@ def parse_options():
         help="Amazon Machine Image ID to use")
     parser.add_option(
         "--authorized-address", type="string", default="0.0.0.0/0",
-        help="Address to authorize on created security groups (default: %default)")
+        help="Address to authorize on created security groups. Put your-ip-address/32 to make it work (default: %default)")
     parser.add_option(
         "-t", "--instance-type", default="m3.medium",
         help="Type of instance to launch (default: %default). ")
